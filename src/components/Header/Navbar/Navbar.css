@@ -1,0 +1,11 @@
+ul li a:hover{
+    border-bottom:4px solid green ;
+    border-radius: 1px;
+}
+.nav-btn{
+    background-color: #111430;
+    border: none;
+    color: white;
+    padding: 7px 22px;
+    border-radius: 5px;
+}

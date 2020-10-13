@@ -1,0 +1,22 @@
+.email{
+    width: 561px;
+    border: none;
+    height: 45px;
+    border-radius: 3px;
+    text-align: start;
+}
+.company{
+    width: 561px;
+    border: none;
+    height: 45px;
+    border-radius: 3px;
+}
+.message{
+    width: 561px;
+    border: none;
+    height: 200px;
+    border-radius: 3px;
+}
+.form-m{
+    margin-top: 10px;
+}
