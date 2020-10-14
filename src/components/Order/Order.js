@@ -7,7 +7,7 @@ import {  faShoppingCart , faListAlt , faInbox} from '@fortawesome/free-solid-sv
 const Order = () => {
     const { register, handleSubmit,  errors } = useForm();
   const onSubmit = data => {
-      fetch('http://localhost:5000/servicecollotion',{
+      fetch('https://server-as11.herokuapp.com/servicecollotion',{
           method:'POST',
           headers:{'content-type':'application/json'},
           body:JSON.stringify(data)
